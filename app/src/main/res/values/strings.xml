@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">BookingFriends</string>
+    <string name="login_success">"登陆主界面成功"</string>
+    <string name="login_fail">"登陆主界面失败"</string>
+    <string name="cancel_success">"注销帐号成功"</string>
+    <string name="cancel_fail">"注销帐号失败"</string>
+    <string name="account_empty">"帐号不能为空"</string>
+    <string name="pwd_empty">"密码不能为空"</string>
+    <string name="pwd_check_empty">"确认密码不能为空"</string>
+    <string name="name_already_exist">"帐号已经存在"</string>
+    <string name="pwd_not_the_same">"两次输入的密码不一致"</string>
+    <string name="register_fail">"注册失败"</string>
+    <string name="register_success">"注册成功"</string>
+    <string name="resetpwd_fail">"重设密码失败"</string>
+    <string name="resetpwd_success">"重设密码成功"</string>
+    <string name="pwd_not_fit_user">"密码与用户名不匹配"</string>
+    <string name="name_not_exist">"帐号不存在"</string>
+    <string name="pwd_new_empty">"新密码不能为空"</string>
+
+
 </resources>

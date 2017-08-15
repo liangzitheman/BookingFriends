@@ -1,8 +1,14 @@
 apply plugin: 'com.android.application'
 
+
+
 android {
     compileSdkVersion 26
     buildToolsVersion "25.0.0"
+
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
     defaultConfig {
         applicationId "com.example.ubuntu.bookingfriends"
         minSdkVersion 15

@@ -9,13 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".activity.LogIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.Register"
+                   android:label="用户注册"/>
+        <activity android:name=".activity.ForgotPwd"
+            android:label="忘记密码"/>
+        <activity android:name=".activity.MainInterface"/>
+        <activity android:name=".activity.ResetPwd"
+            android:label="密码修改"/>
     </application>
 
 </manifest>
